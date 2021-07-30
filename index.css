@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.contenedor
+{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.Titulo
+{
+  display: flex;
+  justify-content: center;
+}
+.MensajeEleccion
+{
+display: flex;
+margin-top: 10%;
+justify-content: center;
+}
+.Contenedor-Cabros
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #8080;
+  margin-top: 10%;
+}
+.Thomy
+{
+
+
+}
+.Nico{
+
+
+}
+.Ceva
+{
+
+}
