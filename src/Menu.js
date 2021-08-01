@@ -4,28 +4,24 @@ import './App.css';
 import './css/indexStyle.css';
 import SelectorDeWeones from './MenuIndex';
 //import styles from './WpCrearPlantilla.module.scss';
-class App extends Component {
+class Menu extends Component {
 
   render() {
     return (
 
-      <div className="App">
+      <div className="Menu">
 
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome cabro as l</h2>
+          <h2>menu 2</h2>
         </div>
 
         <p className="App-intro"><h1>Inicio</h1></p>
         <SelectorDeWeones 
-        urlNico = "nico.html"
+        urlNico = ".\public\nico\index.html"
         urlSeba = "seba.html"
         urlTom ="tom.html"
         />
-
-
-
-
       </div>
     );
   }
@@ -33,4 +29,4 @@ class App extends Component {
 
 }
 
-export default App;
+export default Menu;

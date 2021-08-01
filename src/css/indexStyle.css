@@ -23,7 +23,7 @@
     display: flex;
 }
 
-.nombre{
+.nombre {
     background-color: blue;
     width: 70%;
     height: 80%;
@@ -31,11 +31,51 @@
     margin-top: 5%;
 }
 
-.botones{
-    background-color: red;
-    width: 20%;
-    height: 80%;
-    margin-left: 1%;
-    margin-right: 5%;
-    margin-top: 5%;
+.pantalla {
+    width: 100vw;
+    height: 100vh;
+    background: grey;
 }
+
+*{
+    overflow-x: hidden;
+}
+/* scroll web */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(255,255,255,0.5150812064965198) 0%, rgba(255,255,255,0.07424593967517401) 0%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(2,0,36,0.75) 0%, rgba(9,9,121,0.75) 35%, rgba(0,212,255,0.75) 100%);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  
+
+
+/* 
+    <div class={props.classBoton}>
+        <a href={props.url} class={props.classText}>
+            {props.content}
+        </a>
+    </div>
+    <ButtonProps
+          url="https://www.youtube.com/watch?v=lWQ69WX7-hA"
+          classBoton="boton default"
+          classTexto="btn-texto"
+          content="Boton con props"
+        />
+ */
+
+.boton {
+    width: 10;
+}
+
+.default {}
+
+.btnTexto {}

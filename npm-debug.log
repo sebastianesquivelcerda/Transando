@@ -9,14 +9,14 @@
 6 silly lifecycle web-personal@0.1.0~prestart: no script for prestart, continuing
 7 info lifecycle web-personal@0.1.0~start: web-personal@0.1.0
 8 verbose lifecycle web-personal@0.1.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle web-personal@0.1.0~start: PATH: C:\Users\thoma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\thoma\Documents\web-personal\node_modules\.bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\.dotnet\tools;C:\Program Files\Azure Data Studio\bin
-10 verbose lifecycle web-personal@0.1.0~start: CWD: C:\Users\thoma\Documents\web-personal
+9 verbose lifecycle web-personal@0.1.0~start: PATH: C:\Users\thoma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\thoma\Documents\GitHub\Transando\node_modules\.bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\.dotnet\tools;C:\Program Files\Azure Data Studio\bin
+10 verbose lifecycle web-personal@0.1.0~start: CWD: C:\Users\thoma\Documents\GitHub\Transando
 11 silly lifecycle web-personal@0.1.0~start: Args: [ '/d /s /c', 'react-scripts start' ]
 12 verbose stack Error: kill ENOSYS
 12 verbose stack     at process.kill (internal/process/per_thread.js:198:13)
 12 verbose stack     at process.listener (C:\Users\thoma\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
 12 verbose stack     at process.emit (events.js:203:15)
-13 verbose cwd C:\Users\thoma\Documents\web-personal
+13 verbose cwd C:\Users\thoma\Documents\GitHub\Transando
 14 error Windows_NT 10.0.19042
 15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\thoma\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
 16 error node v10.24.0

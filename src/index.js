@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Menu from './Menu'
 import './index.css';
 
+
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  
+  <Menu />, document.getElementById('menu')
+
 );
