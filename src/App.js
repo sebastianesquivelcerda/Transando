@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './img/logo.svg';
+import './css/App.css';
 import './css/indexStyle.css';
-import SelectorDeWeones from './MenuIndex';
+import SelectorDeWeones from './Componentes/MenuIndex';
 //import styles from './WpCrearPlantilla.module.scss';
 class App extends Component {
 
@@ -17,6 +17,7 @@ class App extends Component {
         </div>
 
         <p className="App-intro"><h1>Inicio</h1></p>
+        {/* componente creado */}
         <SelectorDeWeones 
         urlNico = "nico.html"
         urlSeba = "seba.html"
