@@ -17,11 +17,12 @@ class Menu extends Component {
         </div>
 
         <p className="App-intro"><h1>Inicio</h1></p>
-        <SelectorDeWeones 
+        <a href="page2.html">entrar</a>
+        {/* <SelectorDeWeones 
         urlNico = ".\public\nico\index.html"
         urlSeba = "seba.html"
         urlTom ="tom.html"
-        />
+        /> */}
       </div>
     );
   }
