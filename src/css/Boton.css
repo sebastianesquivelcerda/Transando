@@ -16,6 +16,10 @@
     background: yellow;
 }
 
+.danger{
+    background: red;
+}
+
 .label{
     padding-top: 3px;
     user-select: none;

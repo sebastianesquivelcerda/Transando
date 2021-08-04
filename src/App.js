@@ -14,18 +14,10 @@ class App extends Component {
         </div>
 
         <p className="App-intro"><h1>Inicio</h1></p>
-        <Boton
-          boton="boton"
-          label="Mi boton"
-        />
-        <Boton
-          boton="boton success"
-          label="Mi boton"
-        />
-        <Boton
-          boton="boton warning"
-          label="Mi boton"
-        />
+        <Boton boton="boton" label="Mi boton" />
+        <Boton boton="boton success" label="Mi boton" />
+        <Boton boton="boton warning" label="Mi boton" />
+        <Boton boton="boton danger" label="nico chupa ollo" />
       </div>
     );
   }
